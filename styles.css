@@ -1,3 +1,27 @@
 body    {
-    color: brown;
+    background-color: mintcream;
+    font-family: Helvetica, sans-serif;
+}
+
+#content    {
+    width: 60%;
+    height: 500px;
+    background-color: rgb(183, 199, 199);
+    margin: 0 auto 0;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+h1  {
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+#banner {
+    
 }
