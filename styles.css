@@ -5,7 +5,7 @@ body    {
 
 #content    {
     width: 60%;
-    height: 500px;
+    height: fit-content;
     background-color: rgb(183, 199, 199);
     margin: 0 auto 0;
 }
@@ -14,6 +14,11 @@ body    {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+ol  {
+    padding-bottom: 20px;
 }
 
 h1  {
@@ -23,5 +28,13 @@ h1  {
 }
 
 #banner {
-    
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+h2, #description {
+    text-align: center;
 }
